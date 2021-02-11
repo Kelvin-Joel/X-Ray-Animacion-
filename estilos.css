@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  .contenedor {
+    height: 550px;
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+  }
+  .items {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .img1 {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/a.svg");
+  }
+  .img2 {
+    background-color: #000;
+    clip-path: circle(80px at 50% 50%);
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/b.svg");
+  }
